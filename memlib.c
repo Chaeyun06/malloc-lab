@@ -33,7 +33,7 @@ void mem_init(void)
     mem_max_addr = mem_start_brk + MAX_HEAP;  /* max legal heap address */
     mem_brk = mem_start_brk;                  /* heap is empty initially */
 }
-
+ 
 /* 
  * mem_deinit - free the storage used by the memory system model
  */
